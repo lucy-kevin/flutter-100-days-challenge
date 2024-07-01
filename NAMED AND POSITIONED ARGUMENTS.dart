@@ -3,12 +3,13 @@ void main(){
    String Payer ="Kevin Ziyada";
    fees(Payer, amount: 200000, balance: 30000);
 }
-//named auguement
+//named augment
 void register({required String name, int? age, required String classroom }){
   print(name);
   print(age);
   print(classroom);
 }
+//both named and positioned augments
 void fees(String payer, {required int amount, int? balance}){
   print(amount);
   print(payer);
