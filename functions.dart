@@ -11,6 +11,8 @@ courseName(Course);
     print(name);
     print(gender);
     print(greeting);
+    print(food());
+    print(food().spice);
 }
 void courseName(String course){
   return print(course);
@@ -20,4 +22,7 @@ void printName(){
 }
 (int, String, bool, String) combined(){
   return (12, "Kevin", true ,"Hi");
+}
+({String meal, String spice}) food(){
+  return(meal :"Supper", spice: "Turmaric");
 }
